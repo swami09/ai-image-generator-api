@@ -1,0 +1,81 @@
+name = "ai-image-generator-api"
+main = "workers/index.js"
+compatibility_date = "2024-08-24"
+compatibility_flags = ["nodejs_compat"]
+
+[env.production]
+name = "ai-image-generator-api"
+
+[env.account1]
+name = "ai-image-generator-api-1"
+
+[env.account2] 
+name = "ai-image-generator-api-2"
+
+[env.account3]
+name = "ai-image-generator-api-3"
+
+[env.account4]
+name = "ai-image-generator-api-4"
+
+[env.account5]
+name = "ai-image-generator-api-5"
+
+[env.account6]
+name = "ai-image-generator-api-6"
+
+[env.account7]
+name = "ai-image-generator-api-7"
+
+[env.account8]
+name = "ai-image-generator-api-8"
+
+[env.account9]
+name = "ai-image-generator-api-9"
+
+[env.account10]
+name = "ai-image-generator-api-10"
+
+[[env.production.routes]]
+pattern = "api.yourdomain.com/*"
+zone_name = "yourdomain.com"
+
+[[env.account1.routes]]
+pattern = "api1.yourdomain.com/*"  
+zone_name = "yourdomain.com"
+
+[[env.account2.routes]]
+pattern = "api2.yourdomain.com/*"
+zone_name = "yourdomain.com"
+
+[[env.account3.routes]]
+pattern = "api3.yourdomain.com/*"
+zone_name = "yourdomain.com"
+
+[[env.account4.routes]]
+pattern = "api4.yourdomain.com/*"
+zone_name = "yourdomain.com"
+
+[[env.account5.routes]]
+pattern = "api5.yourdomain.com/*"
+zone_name = "yourdomain.com"
+
+[[env.account6.routes]]
+pattern = "api6.yourdomain.com/*"
+zone_name = "yourdomain.com"
+
+[[env.account7.routes]]
+pattern = "api7.yourdomain.com/*"
+zone_name = "yourdomain.com"
+
+[[env.account8.routes]]
+pattern = "api8.yourdomain.com/*"
+zone_name = "yourdomain.com"
+
+[[env.account9.routes]]
+pattern = "api9.yourdomain.com/*"
+zone_name = "yourdomain.com"
+
+[[env.account10.routes]]
+pattern = "api10.yourdomain.com/*"
+zone_name = "yourdomain.com"
